@@ -1,0 +1,19 @@
+{
+	"name": "plumpss/googleanalytics",
+	"description": "Google Analytics module for SilverStripe.",
+	"type": "silverstripe-module",
+	"license": "MIT",
+	"keywords": ["silverstripe", "google", "analytics"],
+	"authors": [
+		{
+			"name": "James Howard",
+			"email": "james@plumpdigital.co.uk"
+		}
+	],
+	"require" : {
+		"silverstripe/framework": "~3.1"
+	},
+	"extra" : {
+		"installer-name": "plumpss-googleanalytics"
+	}
+}

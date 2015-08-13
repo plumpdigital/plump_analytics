@@ -1,9 +1,18 @@
-Silverstripe Google Analytics module
-===============
+# Silverstripe Google Analytics module
 
-Adds a Google Analytics account ID field to the CMS site settings and outputs GA JavaScript within all pages.
+Adds Google Analytics JS when the site is in live mode.
 
-Installation:
+## Installation
 
-* Copy module to root of your Silverstripe project
-* Run /dev/build?flush=all to build database changes
+Via composer:
+
+`composer require plumpss/googleanalytics`
+
+## Configuration
+
+Add your Google Analytics account ID in `mysite/_config/config.yml`:
+
+```yml
+GoogleAnalyticsExtension:
+  account_id: 'UA-XXXXXXXX-X'
+```
